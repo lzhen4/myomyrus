@@ -5,28 +5,28 @@
       "title": "posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-03T01:43:43-04:00"
+      "last_modified": "2021-07-03T03:34:21-04:00"
     },
     {
       "path": "index.html",
       "title": "hello world",
       "author": [],
       "contents": "\r\n\r\nbio\r\nI am a researcher in-training at the University of Pittsburgh.\r\nMy research interests center on how we learn and process the sounds that we hear.\r\ncontact\r\nlez35@pitt.edu\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-03T01:43:45-04:00"
+      "last_modified": "2021-07-03T03:34:25-04:00"
     },
     {
       "path": "other.html",
       "title": "other",
       "author": [],
       "contents": "\r\nin development\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-03T01:43:47-04:00"
+      "last_modified": "2021-07-03T03:34:26-04:00"
     },
     {
       "path": "research.html",
       "title": "research",
       "author": [],
       "contents": "\r\nin development\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-03T01:43:49-04:00"
+      "last_modified": "2021-07-03T03:34:32-04:00"
     }
   ],
   "collections": ["posts/posts.json"]

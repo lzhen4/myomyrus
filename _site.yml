@@ -3,6 +3,7 @@ title: "leslie zhen"
 description: |
   personal website
 output_dir: "docs"
+
 navbar:
   logo:
     image: headshot.jpg
@@ -21,3 +22,4 @@ navbar:
     - icon: fa fa-linkedin
       href: https://www.linkedin.com/in/lesliezhen
 output: distill::distill_article
+theme: "theme.css"
