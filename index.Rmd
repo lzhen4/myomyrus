@@ -1,7 +1,7 @@
 ---
 title: "hello world"
-description: |
-  add a description here
+#description: |
+#  add a description here
 site: distill::distill_website
 ---
 
