@@ -5,8 +5,8 @@
       "title": "About this site",
       "description": "Some additional details about the website",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-03T00:23:56-04:00"
+      "contents": "\r\nJust change some text to see what happens.\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-07-03T00:41:08-04:00"
     },
     {
       "path": "index.html",
@@ -14,7 +14,7 @@
       "description": "Welcome to the website. I hope you enjoy it!\n",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-03T00:23:58-04:00"
+      "last_modified": "2021-07-03T00:41:09-04:00"
     }
   ],
   "collections": []

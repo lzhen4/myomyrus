@@ -8,4 +8,4 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Just change some text to see what happens.
+Let's see if commit works after switching branches.
