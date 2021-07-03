@@ -1,21 +1,34 @@
 {
   "articles": [
     {
-      "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "path": "blog.html",
+      "title": "posts",
       "author": [],
-      "contents": "\r\nJust change some text to see what happens.\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-03T00:41:08-04:00"
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-07-03T01:24:32-04:00"
     },
     {
       "path": "index.html",
-      "title": "myomyrus",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "hello world",
+      "description": "add a description here\n",
       "author": [],
-      "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-03T00:41:09-04:00"
+      "contents": "\r\n\r\nbio\r\nI am a researcher in-training at the University of Pittsburgh.\r\nMy research interests center on how we learn and process the sounds that we hear.\r\ncontact\r\nlez35@pitt.edu\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-07-03T01:24:34-04:00"
+    },
+    {
+      "path": "other.html",
+      "title": "other",
+      "author": [],
+      "contents": "\r\nin development\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-07-03T01:24:37-04:00"
+    },
+    {
+      "path": "research.html",
+      "title": "research",
+      "author": [],
+      "contents": "\r\nin development\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-07-03T01:24:39-04:00"
     }
   ],
-  "collections": []
+  "collections": ["posts/posts.json"]
 }

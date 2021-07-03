@@ -1,18 +1,22 @@
 ---
-title: "myomyrus"
+title: "hello world"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  add a description here
 site: distill::distill_website
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
 ```
 
+![](kemar.jpg)
+
+## bio
+I am a researcher in-training at the University of Pittsburgh.
+
+My research interests center on how we learn and process the sounds that we hear.
+
+
+## contact
+lez35@pitt.edu

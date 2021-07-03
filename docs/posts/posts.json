@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/2021-07-01-buildingdistill/",
+    "title": "initial post",
+    "description": "Here is an initial post for testing.",
+    "author": [
+      {
+        "name": "leslie zhen",
+        "url": {}
+      }
+    ],
+    "date": "2021-07-01",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\n",
+    "preview": {},
+    "last_modified": "2021-07-02T02:32:47-04:00",
+    "input_file": {}
+  }
+]
