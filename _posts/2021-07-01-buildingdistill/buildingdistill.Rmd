@@ -4,7 +4,7 @@ description: |
   Here is an initial post for testing.
 author:
   - name: leslie zhen
-date: 07-01-2021
+date: 07-03-2021
 output:
   distill::distill_article:
     self_contained: false
