@@ -6,6 +6,7 @@ output_dir: "docs"
 navbar:
   logo:
     image: headshot.jpg
+  search: false
   right:
     - text: "about"
       href: index.html
