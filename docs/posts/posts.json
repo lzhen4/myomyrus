@@ -2,7 +2,7 @@
   {
     "path": "posts/2021-07-05-puretonegenerator/",
     "title": "generate pure tones",
-    "description": "Generate pure tones in Python.",
+    "description": "Generate pure tones using Python.",
     "author": [
       {
         "name": "leslie zhen",
@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\r\nThis script generates a pure tone for a given level, sampling rate, duration, and frequency. Signal parameters can be adjusted as needed.\r\n\r\n# import libraries\r\nimport pyaudio\r\nimport numpy as np\r\nfrom matplotlib import pyplot as plt\r\nfrom scipy.io.wavfile import write\r\n\r\np = pyaudio.PyAudio()\r\n\r\n# define signal parameters\r\nmag_in_dB = -10     # magnitude, range = [-74, 0], so when mag = 0, A = 1\r\n                    # ydb = 20 log10(y), where y = mag; y is I1/I2\r\namplitude = 10.0 ** ((mag_in_dB)/20.0) #convert mag_in_dB to mag, so volume = mag, range = [-1,1]\r\nfs = 44100          # sampling rate, Hz, must be integer\r\nduration = 1        # in seconds, may be float\r\nf = 1000            # sine frequency, Hz, may be float\r\n\r\n# generate range of samples\r\nsig_sample = np.arange(fs*duration)*(f/fs)\r\n# take sine wave of generated samples and convert to float32 array\r\nsamples = (np.sin(2*np.pi*sig_sample)).astype(np.float32)\r\n\r\n# listen to the samples\r\nstream = p.open(format=pyaudio.paFloat32,\r\n                channels=1,\r\n                rate=fs,\r\n                output=True)\r\nstream.stop_stream()\r\nstream.close()\r\np.terminate()\r\n\r\n# plot signal\r\nplt.plot(samples)\r\nplt.title('signal')\r\nplt.show()\r\n\r\n# write samples to .wav file\r\nwrite('tone.wav', fs, samples*amplitude)\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-07-05-puretonegenerator/python_logo.jpg",
-    "last_modified": "2021-07-05T02:11:39-04:00",
+    "last_modified": "2021-07-05T02:16:29-04:00",
     "input_file": "puretonegenerator.knit.md"
   }
 ]

@@ -1,7 +1,7 @@
 ---
 title: "generate pure tones"
 description: |
-  Generate pure tones in Python.
+  Generate pure tones using Python.
 author:
   - name: leslie zhen
     url: {}
