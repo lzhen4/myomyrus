@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
-![](kemar.jpg)
+![](images/kemar.jpg)
 
 ## bio
 I am a researcher in-training at the University of Pittsburgh.
