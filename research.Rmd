@@ -1,4 +1,11 @@
 ---
 title: "research"
 ---
-in development
+My research is in auditory perceptual learning.  I'm interested in how we learn and process the sounds that we hear.
+
+Here is some of my recent work.
+
+# comorbidities & hearing loss in veterans
+More and more veterans returning from Iraq and Afghanistan are complaining of having hearing problems, but their hearing tests are typically normal. Might their comorbidities explain their hearing problems?
+
+![](https://www.dropbox.com/s/3zyv0g26puqvo0p/comorbidities.mp4?dl=0){width="560" height="315"}

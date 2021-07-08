@@ -6,7 +6,7 @@ author:
   - name: leslie zhen
     url: {}
 date: 07-05-2021
-preview: python_logo.jpg # figure out how to get to images folder from cwd
+preview: python_logo.jpg
 output:
   distill::distill_article:
     self_contained: false
