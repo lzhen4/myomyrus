@@ -8,4 +8,4 @@ Here is some of my recent work.
 # comorbidities & hearing loss in veterans
 More and more veterans returning from Iraq and Afghanistan are complaining of having hearing problems, but their hearing tests are typically normal. Might their comorbidities explain their hearing problems?
 
-![](https://www.dropbox.com/s/3zyv0g26puqvo0p/comorbidities.mp4?dl=0){width="560" height="315"}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JgREjfMw7Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
