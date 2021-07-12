@@ -1,5 +1,5 @@
 ---
-title: "import __hello__"
+title: "import __hello__."
 #description: |
 #  add a description here
 site: distill::distill_website
