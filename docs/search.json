@@ -5,28 +5,28 @@
       "title": "posts",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-08T03:32:46-04:00"
+      "last_modified": "2021-07-12T00:13:29-04:00"
     },
     {
       "path": "index.html",
       "title": "hello world",
       "author": [],
       "contents": "\r\n\r\nbio\r\nI am a researcher in-training at the University of Pittsburgh.\r\nMy research interests center on how we learn and process the sounds that we hear.\r\ncontact\r\nlez35@pitt.edu\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-08T03:32:49-04:00"
+      "last_modified": "2021-07-12T00:13:31-04:00"
     },
     {
       "path": "other.html",
       "title": "other",
       "author": [],
       "contents": "\r\nin development\r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-08T03:32:52-04:00"
+      "last_modified": "2021-07-12T00:13:33-04:00"
     },
     {
       "path": "research.html",
       "title": "research",
       "author": [],
-      "contents": "\r\nMy research is in auditory perceptual learning. I’m interested in how we learn and process the sounds that we hear.\r\nHere is some of my recent work.\r\ncomorbidities & hearing loss in veterans\r\nMore and more veterans returning from Iraq and Afghanistan are complaining of having hearing problems, but their hearing tests are typically normal. Might their comorbidities explain their hearing problems?\r\nVideo frameborder=“0” allow=“accelerometer; encrypted-media; gyroscope; picture-in-picture” allowfullscreen allow=“autoplay” \r\n\r\n\r\n\r\n",
-      "last_modified": "2021-07-08T03:32:55-04:00"
+      "contents": "\r\nMy research is in auditory perceptual learning. I’m interested in how we learn and process the sounds that we hear.\r\nHere is some of my recent work.\r\ncomorbidities & hearing loss in veterans\r\nMore and more veterans returning from Iraq and Afghanistan are complaining of having hearing problems, but their hearing tests are typically normal. Might their comorbidities explain their hearing problems?\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2021-07-12T00:13:36-04:00"
     }
   ],
   "collections": ["posts/posts.json"]
