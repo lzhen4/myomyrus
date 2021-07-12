@@ -6,6 +6,8 @@ My research is in auditory perceptual learning.  I'm interested in how we learn 
 Here is some of my recent work.
 
 # comorbidities & hearing loss in veterans
+*presented at JDVAC 2021*
+
 More and more veterans returning from Iraq and Afghanistan are complaining of having hearing problems, but their hearing tests are typically normal. Might their comorbidities explain their hearing problems?
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JgREjfMw7Uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
