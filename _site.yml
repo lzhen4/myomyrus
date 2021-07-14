@@ -3,7 +3,6 @@ title: "leslie zhen"
 description: |
   personal website
 output_dir: "docs"
-google_analytics: "UA-201245759-1"
 
 navbar:
   logo:
