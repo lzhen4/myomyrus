@@ -1,5 +1,6 @@
 name: "website"
 title: "leslie zhen"
+google_analytics: "G-GFR188DPMK"
 description: |
   personal website
 output_dir: "docs"
