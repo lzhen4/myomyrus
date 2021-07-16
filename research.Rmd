@@ -5,6 +5,17 @@ My research is in auditory perceptual learning.  I'm interested in how we learn 
 
 Here is some of my recent work.
 
+---
+# memory & central auditory processing
+*presented at JDVAC 2021*
+
+Central auditory processing assessment tools vary in task and memory demands. Some of these assessments can be especially challenging for Veterans at elevated risk for memory deficits related to traumatic brain injuries and/or post-traumatic stress disorder.
+
+```{r, fig.align='left', out.width = "800px", out.height="550px", echo=FALSE}
+knitr::include_graphics("images/memorycap_jdvac2021.pdf")
+```
+
+---
 # comorbidities & hearing loss in veterans
 *presented at JDVAC 2021*
 
