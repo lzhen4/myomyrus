@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-07-19-whitenoisegenerator/",
+    "title": "generate white noise",
+    "description": "Generate white noise using Python.",
+    "author": [
+      {
+        "name": "leslie zhen",
+        "url": {}
+      }
+    ],
+    "date": "2021-07-19",
+    "categories": [],
+    "contents": "\r\nWhite noise is characterized by a flat frequency spectrum. A white noise signal that is infinitely long, in theory, will have equal energy at each frequency.\r\n\r\nThis script generates a white noise signal at a given sampling rate, low cutoff frequency, high cutoff frequency, and duration. Signal parameters can be adjusted as needed.\r\n\r\nimport pyaudio\r\nimport numpy as np\r\nimport matplotlib.pyplot as plt\r\nfrom scipy.signal import butter, lfilter\r\nfrom scipy.io.wavfile import write\r\nfrom scipy import fft, arange\r\n\r\n# sample rate and desired cutoff frequencies (in Hz)\r\nfs = 44100\r\nlowcut = 900\r\nhighcut = 1100\r\n\r\nmean = 0\r\nstd = 1\r\nduration=10 # duration in s\r\nnum_samples = fs*duration #44100 == 1s\r\n\r\ndef butter_bandpass(lowcut, highcut, fs, order=5):\r\n    nyq = 0.5 * fs\r\n    low = lowcut / nyq\r\n    high = highcut / nyq\r\n    b, a = butter(order, [low, high], btype='band')\r\n    return b, a\r\n\r\ndef butter_bandpass_filter(data, lowcut, highcut, fs, order=5):\r\n    b, a = butter_bandpass(lowcut, highcut, fs, order=order)\r\n    y = lfilter(b, a, data)\r\n    return y\r\n\r\ndef generateAudioStimulus():\r\n    p = pyaudio.PyAudio()\r\n    noise = np.random.normal(mean, std, size=num_samples)\r\n    filtered_noise = butter_bandpass_filter(noise, lowcut, highcut, fs)\r\n    samples = filtered_noise.astype(np.float32).tobytes()\r\n    \r\n    # for paFloat32 sample values must be in range [-1.0, 1.0]    \r\n    stream = p.open(format=pyaudio.paFloat32, channels=1, rate=fs, output=True)\r\n\r\n    # write array as .wav\r\n    write('white.wav', fs, filtered_noise)\r\n    \r\n    # listen to the sound\r\n    stream.write(samples)\r\n    stream.stop_stream()\r\n    stream.close()\r\n    p.terminate()\r\n    \r\n    # plot\r\n    t = np.linspace(0, duration, num_samples, endpoint=False)\r\n    plt.plot(t, filtered_noise, label=f'cutoffs: low={lowcut}Hz, high={highcut}Hz')\r\n    plt.xlabel('time (seconds)')\r\n    plt.hlines([-.02, .02], 0, 1/fs, linestyles='--')\r\n    plt.grid(True)\r\n    plt.axis('tight')\r\n    plt.legend(loc='upper left')\r\n    plt.show()\r\n    \r\ngenerateAudioStimulus()\r\n\r\n\r\n\r\n\r\n",
+    "preview": "posts/2021-07-19-whitenoisegenerator/python_logo.jpg",
+    "last_modified": "2021-07-19T22:59:37-04:00",
+    "input_file": "whitenoisegenerator.knit.md"
+  },
+  {
     "path": "posts/2021-07-08-hannwindow/",
     "title": "hann window",
     "description": "Add hann window to pure tones.",
@@ -28,9 +45,9 @@
     ],
     "date": "2021-07-05",
     "categories": [],
-    "contents": "\r\nThis script generates a pure tone for a given level, sampling rate, duration, and frequency. Signal parameters can be adjusted as needed.\r\n\r\n# import libraries\r\nimport pyaudio\r\nimport numpy as np\r\nfrom matplotlib import pyplot as plt\r\nfrom scipy.io.wavfile import write\r\n\r\np = pyaudio.PyAudio()\r\n\r\n# define signal parameters\r\nmag_in_dB = -10     # magnitude, range = [-74, 0], so when mag = 0, A = 1\r\n                    # ydb = 20 log10(y), where y = mag; y is I1/I2\r\namplitude = 10.0 ** ((mag_in_dB)/20.0) #convert mag_in_dB to mag, so volume = mag, range = [-1,1]\r\nfs = 44100          # sampling rate, Hz, must be integer\r\nduration = 1        # in seconds, may be float\r\nf = 1000            # sine frequency, Hz, may be float\r\n\r\n# generate range of samples\r\nsig_sample = np.arange(fs*duration)*(f/fs)\r\n# take sine wave of generated samples and convert to float32 array\r\nsamples = (np.sin(2*np.pi*sig_sample)).astype(np.float32)\r\n\r\n# listen to the samples\r\nstream = p.open(format=pyaudio.paFloat32,\r\n                channels=1,\r\n                rate=fs,\r\n                output=True)\r\nstream.stop_stream()\r\nstream.close()\r\np.terminate()\r\n\r\n# plot signal\r\nplt.plot(samples)\r\nplt.title('signal')\r\nplt.show()\r\n\r\n# write samples to .wav file\r\nwrite('tone.wav', fs, samples*amplitude)\r\n\r\n\r\n\r\n\r\n",
+    "contents": "\r\nPure tones contain energy at exactly one frequency. This is why frequency spectra for pure tones are sometimes called line spectra. A pure tone can be characterized by its frequency, amplitude, and phase.\r\n\r\nThis script generates a pure tone at a given level, sampling rate, duration, and frequency. Signal parameters can be adjusted as needed.\r\n\r\n# import libraries\r\nimport pyaudio\r\nimport numpy as np\r\nfrom matplotlib import pyplot as plt\r\nfrom scipy.io.wavfile import write\r\n\r\np = pyaudio.PyAudio()\r\n\r\n# define signal parameters\r\nmag_in_dB = -10     # magnitude, range = [-74, 0], so when mag = 0, A = 1\r\n                    # ydb = 20 log10(y), where y = mag; y is I1/I2\r\namplitude = 10.0 ** ((mag_in_dB)/20.0) #convert mag_in_dB to mag, so volume = mag, range = [-1,1]\r\nfs = 44100          # sampling rate, Hz, must be integer\r\nduration = 1        # in seconds, may be float\r\nf = 1000            # sine frequency, Hz, may be float\r\n\r\n# generate range of samples\r\nsig_sample = np.arange(fs*duration)*(f/fs)\r\n# take sine wave of generated samples and convert to float32 array\r\nsamples = (np.sin(2*np.pi*sig_sample)).astype(np.float32)\r\n\r\n# listen to the samples\r\nstream = p.open(format=pyaudio.paFloat32,\r\n                channels=1,\r\n                rate=fs,\r\n                output=True)\r\nstream.stop_stream()\r\nstream.close()\r\np.terminate()\r\n\r\n# plot signal\r\nplt.plot(samples)\r\nplt.title('signal')\r\nplt.show()\r\n\r\n# write samples to .wav file\r\nwrite('tone.wav', fs, samples*amplitude)\r\n\r\n\r\n\r\n\r\n",
     "preview": "posts/2021-07-05-puretonegenerator/python_logo.jpg",
-    "last_modified": "2021-07-08T01:36:55-04:00",
-    "input_file": {}
+    "last_modified": "2021-07-19T23:06:11-04:00",
+    "input_file": "puretonegenerator.knit.md"
   }
 ]

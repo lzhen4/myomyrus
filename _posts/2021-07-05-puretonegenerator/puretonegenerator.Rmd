@@ -15,8 +15,12 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+Pure tones contain energy at exactly one frequency. This is why frequency spectra for pure tones are sometimes called *line spectra*. A pure tone can be characterized by its frequency, amplitude, and phase.
 
-This script generates a pure tone for a given level, sampling rate, duration, and frequency. Signal parameters can be adjusted as needed.
+![](sine.PNG)
+
+---
+This script generates a pure tone at a given level, sampling rate, duration, and frequency. Signal parameters can be adjusted as needed.
 
 ```{python, eval=FALSE, echo=TRUE}
 # import libraries
