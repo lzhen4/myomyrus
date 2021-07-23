@@ -13,8 +13,8 @@ navbar:
       href: index.html
     - text : "research"
       href: research.html
-    - text: "blog"
-      href: blog.html
+    - text: "posts"
+      href: posts.html
     - text: "other"
       href: other.html
     - icon: ai ai-orcid fa-lg
