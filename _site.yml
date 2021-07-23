@@ -17,11 +17,11 @@ navbar:
       href: blog.html
     - text: "other"
       href: other.html
-    - icon: ai ai-orcid
+    - icon: ai ai-orcid fa-lg
       href: https://orcid.org/0000-0002-3956-1177
-    - icon: fa fa-github
+    - icon: fa fa-github fa-lg
       href: https://github.com/lzhen4
-    - icon: fa fa-linkedin
+    - icon: fa fa-linkedin fa-lg
       href: https://www.linkedin.com/in/lesliezhen
 output: distill::distill_article
 theme: "theme.css"

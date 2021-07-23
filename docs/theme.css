@@ -64,7 +64,7 @@ d-appendix {
 .distill-site-header {
   --title-size:       24px; /*increase title size, default was 18px*/
   --text-color:       rgba(255, 255, 255, 0.8);
-  --text-size:        15px;
+  --text-size:        17px;
   --hover-color:      white;
   --bkgd-color:       #000000;
 }
