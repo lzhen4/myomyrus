@@ -13,6 +13,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto');
 
+/* Add any additional CSS rules below                      */
+@import url('https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css');
+
 html {
   /*-- Main font sizes --*/
   --title-size:      50px;
@@ -77,4 +80,6 @@ d-appendix {
 .distill-site-header .logo img{
   max-height: 40px; /* Makes logo bigger, default was 20px */
 }
+
+
 
