@@ -15,7 +15,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
-Pure tones contain energy at exactly one frequency. This is why frequency spectra for pure tones are sometimes called *line spectra*. A pure tone can be characterized by its frequency, amplitude, and phase.
+Pure tones contain energy at exactly one frequency. This is why frequency spectra for pure tones are sometimes called **line spectra**. A pure tone can be characterized by its frequency, amplitude, and phase.
 
 ![](sine.PNG)
 

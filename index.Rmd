@@ -1,7 +1,7 @@
 ---
-title: "hello world"
+title: "&nbsp;"
 #description: |
-#  add a description here
+#  add a description here, see https://rstudio4edu.github.io/rstudio4edu-book/rmd-fancy.html
 site: distill::distill_website
 ---
 
@@ -9,7 +9,6 @@ site: distill::distill_website
 knitr::opts_chunk$set(echo = FALSE)
 
 ```
-
 
 ```{r, fig.align='left', out.width = "300px"}
 knitr::include_graphics("images/kemar.png")
