@@ -22,8 +22,8 @@ My research interests center on how we learn and process the sounds that we hear
 
 
 ## trivia
+- Despite what this homepage might suggest, I am not a KEMAR.
 - The github repository for this website, myomyrus, is named after *Myomyrus rume*, weakly electric elephant-nose fish hailing from South Africa. My research journey started with studying how these creatures learned spatial information.
-- I have been electrocuted by lively specimens of *Malapterurus electricus*, African electric catfish, on multiple occasions.  It was electrifying.
 
 
 ## contact
