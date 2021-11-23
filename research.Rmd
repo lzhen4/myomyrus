@@ -9,7 +9,7 @@ Here is some of my recent work.
 # perceptual, procedural, & task learning
 *presented at ASA 2021*
 
-What information do we learn during auditory training? Much research has focused on learning to detect changes in stimulus characteristics, but improvements also can reflect acquiring general skills and strategies and learning the perceptual judgment specific to the task. The time course for these learning processes overlap, making it difficult to isolate their individual effects.
+test
 
 ```{r, fig.align='left', out.width = "800px", out.height="550px", echo=FALSE}
 knitr::include_graphics("images/asa2021.pdf")
