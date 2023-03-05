@@ -8,7 +8,7 @@ Here is some of my recent work.
 ---
 
 # publications
-- **Zhen, L.**, (2023, in press.) Perceptual, procedural, and task learning for an auditory temporal discrimination task. J. Acoust. Soc. Am.
+- **Zhen, L.**, (2023, in press) Perceptual, procedural, and task learning for an auditory temporal discrimination task. J. Acoust. Soc. Am.
 - Jedlicka, D., & **Zhen, L.** (2023). PTSD is associated with self-perceived hearing handicap: An evaluation of comorbidities in Veterans with normal audiometric thresholds. J Am Acad Audiol., 10.1055/a-2015-8524. [[access here](https://pubmed.ncbi.nlm.nih.gov/36657469/)]
 
 ---
