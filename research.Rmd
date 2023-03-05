@@ -25,7 +25,7 @@ Overt hearing loss is associated with reduced processing of stimulus temporal fi
 knitr::include_graphics("images/zhen_aro2023.pdf")
 ```
 
-</br>
+$$\\[1in]$$
 
 ## veteran-appropriate norms for central auditory processing
 *presented at JDVAC 2022*
@@ -36,7 +36,7 @@ Performance on tests of central auditory processing is typically compared to pub
 knitr::include_graphics("images/stadel_jdvac2022.pdf")
 ```
 
-&nbsp;  
+$$\\[1in]$$
 
 ## perceptual, procedural, & task learning
 *presented at ASA 2021*
@@ -47,6 +47,7 @@ What information do we learn during auditory training? Much research has focused
 knitr::include_graphics("images/asa2021.pdf")
 ```
 
+$$\\[1in]$$
 
 ## memory & central auditory processing
 *presented at JDVAC 2021*
@@ -57,6 +58,7 @@ Central auditory processing describes how the brain processes sound beyond the c
 knitr::include_graphics("images/memorycap_jdvac2021.pdf")
 ```
 
+$$\\[1in]$$
 
 ## comorbidities & hearing loss in veterans
 *presented at JDVAC 2021*
