@@ -13,10 +13,10 @@ navbar:
       href: index.html
     - text : "research"
       href: research.html
+    - text: "teaching"
+      href: teaching.html
     - text: "posts"
       href: posts.html
-    - text: "other"
-      href: other.html
     - icon: ai ai-orcid fa-lg
       href: https://orcid.org/0000-0002-3956-1177
     - icon: fa fa-github fa-lg

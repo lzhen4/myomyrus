@@ -1,7 +1,0 @@
----
-title: "other"
-#description: |
-#  Here are some useful resources that I've come across.
----
-in development
-
