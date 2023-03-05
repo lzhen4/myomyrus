@@ -25,6 +25,7 @@ Overt hearing loss is associated with reduced processing of stimulus temporal fi
 knitr::include_graphics("images/zhen_aro2023.pdf")
 ```
 
+</br>
 
 ## veteran-appropriate norms for central auditory processing
 *presented at JDVAC 2022*
@@ -35,6 +36,7 @@ Performance on tests of central auditory processing is typically compared to pub
 knitr::include_graphics("images/stadel_jdvac2022.pdf")
 ```
 
+&nbsp;  
 
 ## perceptual, procedural, & task learning
 *presented at ASA 2021*
