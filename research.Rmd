@@ -5,9 +5,28 @@ My research is in auditory perceptual learning. I'm interested in how we learn a
 
 Here is some of my recent work.
 
+---
+
+# publications
+- **Zhen, L.**, (2023, in press.) Perceptual, procedural, and task learning for an auditory temporal discrimination task. J. Acoust. Soc. Am.
+- Jedlicka, D., & **Zhen, L.** (2023). PTSD is associated with self-perceived hearing handicap: An evaluation of comorbidities in Veterans with normal audiometric thresholds. J Am Acad Audiol., 10.1055/a-2015-8524. [[access here](https://pubmed.ncbi.nlm.nih.gov/36657469/)]
 
 ---
-# veteran-appropriate norms for central auditory processing
+
+# presentations
+
+
+## aging and mutli-talker speech intelligiblity
+*presented at ARO 2023*
+
+Overt hearing loss is associated with reduced processing of stimulus temporal fine structure cues that are important for hearing in noise. Middle aged adults are understudied in this domain despite them forming the largest group of listeners with hearing complaints and normal audiograms. What are the perceptual consequences of reduced stimulus temporal fine structure encoding with age?
+
+```{r, fig.align='left', out.width = "800px", out.height="550px", echo=FALSE}
+knitr::include_graphics("images/zhen_aro2023.pdf")
+```
+
+
+## veteran-appropriate norms for central auditory processing
 *presented at JDVAC 2022*
 
 Performance on tests of central auditory processing is typically compared to published norms established from non-veteran populations. Establishing and using population-appropriate norms are critical for accurately diagnosing central auditory processing disorders in veterans.
@@ -16,8 +35,8 @@ Performance on tests of central auditory processing is typically compared to pub
 knitr::include_graphics("images/stadel_jdvac2022.pdf")
 ```
 
----
-# perceptual, procedural, & task learning
+
+## perceptual, procedural, & task learning
 *presented at ASA 2021*
 
 What information do we learn during auditory training? Much research has focused on learning to detect changes in stimulus characteristics, but improvements also can reflect acquiring general skills and strategies and learning the perceptual judgment specific to the task. The time course for these learning processes overlap, making it difficult to isolate their individual effects.
@@ -26,8 +45,8 @@ What information do we learn during auditory training? Much research has focused
 knitr::include_graphics("images/asa2021.pdf")
 ```
 
----
-# memory & central auditory processing
+
+## memory & central auditory processing
 *presented at JDVAC 2021*
 
 Central auditory processing describes how the brain processes sound beyond the cochlea Some assessment tools for central auditory processing can be especially challenging for veterans at elevated risk for memory deficits related to traumatic brain injuries and/or post-traumatic stress disorder.
@@ -36,8 +55,8 @@ Central auditory processing describes how the brain processes sound beyond the c
 knitr::include_graphics("images/memorycap_jdvac2021.pdf")
 ```
 
----
-# comorbidities & hearing loss in veterans
+
+## comorbidities & hearing loss in veterans
 *presented at JDVAC 2021*
 
 More and more veterans returning from Iraq and Afghanistan are complaining of having hearing problems, but their hearing tests are typically normal. Might their comorbidities explain their hearing problems?
