@@ -25,4 +25,3 @@ navbar:
       href: https://www.linkedin.com/in/lesliezhen
 output: distill::distill_article
 theme: "theme.css"
-
