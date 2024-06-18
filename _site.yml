@@ -5,8 +5,6 @@ description: |
 output_dir: "docs"
 
 navbar:
-  logo:
-    image: images/headshot.jpg
   search: false
   right:
     - text: "about"
