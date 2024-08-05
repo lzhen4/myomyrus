@@ -18,7 +18,7 @@ knitr::include_graphics("images/kemar.png")
 ## bio
 I'm a researcher in-training at the University of Pittsburgh.
 
-My research interests center on how we learn and process the sounds that we hear.
+My research centers on how we learn and process the sounds that we hear. I use advanced regression and predictive modelling techniques in R and Python to support this work.
 
 
 ## trivia
