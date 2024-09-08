@@ -8,7 +8,7 @@ Here is some of my recent work.
 ---
 
 # publications
-- Zink, M., **Zhen, L.**, McHaney, J., Klara, J., Yurasits, K., Cancel, V., Flemm, O., Mitchell, C., Datta, J., Chandrasekaran, B., Parthasarathy, A. (2024). Increased listening effort and cochlear neural degeneration underlie behavioral deficits in speech perception in noise in normal hearing middle-aged adults. *bioRxiv*, 2024.08.01.606213; [[access here](https://www.biorxiv.org/content/10.1101/2024.08.01.606213v1)]
+- Zink, M., **Zhen, L.**, McHaney, J., Klara, J., Yurasits, K., Cancel, V., Flemm, O., Mitchell, C., Datta, J., Chandrasekaran, B., Parthasarathy, A. (2024). Increased listening effort and cochlear neural degeneration underlie behavioral deficits in speech perception in noise in normal hearing middle-aged adults. *bioRxiv*, 2024.08.01.606213. [[access here](https://www.biorxiv.org/content/10.1101/2024.08.01.606213v1)]
 - Goldberg, E., Pratt, S., McNeil, M., Szuminsky, N., DeHaan, K., & **Zhen, L.**. (in press). Development, Reliability and Concurrent Validity of the American Sign Language Version of the Computerized Revised Token Test. *J Speech Lang Hear Res.*
 - **Zhen, L.**, & Pratt, S. (2023). Perceptual, procedural, and task learning for an auditory temporal discrimination task. *J. Acoust. Soc. Am.*, 10.1121/10.0017548. [[access here](https://asa.scitation.org/doi/10.1121/10.0017548)]
 - Jedlicka, D., & **Zhen, L.** (2023). PTSD is associated with self-perceived hearing handicap: An evaluation of comorbidities in Veterans with normal audiometric thresholds. *J Am Acad Audiol.*, 10.1055/a-2015-8524. [[access here](https://pubmed.ncbi.nlm.nih.gov/36657469/)]
