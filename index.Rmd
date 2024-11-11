@@ -16,7 +16,7 @@ knitr::include_graphics("images/kemar.png")
 
 
 ## bio
-I am a Ph.D. candidate and research data scientist at the University of Pittsburgh.
+I am a research data scientist at the University of Pittsburgh.
 
 My research centers on auditory health and aging. I use advanced regression and predictive modelling techniques in R and Python to support this work.
 
