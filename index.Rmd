@@ -16,17 +16,15 @@ knitr::include_graphics("images/kemar.png")
 
 
 ## bio
-I am a research data scientist at the University of Pittsburgh.
-
-My research centers on auditory health and aging. I use advanced regression and predictive modelling techniques in R and Python to support this work.
+I am a research data analyst at Rutgers University. I use R and Python to turn biomedical and community health data into impactful stories.
 
 
 ## trivia
-- Despite what this homepage might suggest, I am not a KEMAR.
+- Despite what this homepage might suggest, I am not a [KEMAR](https://www.grasacoustics.com/industries/audiology/kemar)
 - The github repository for this website, myomyrus, is named after [*Myomyrus rume*](https://www.google.com/search?q=mormyrus+rume&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi1z76A_sP9AhW3F1kFHd71BdQQ0pQJegQIBhAC&biw=1920&bih=937), weakly electric elephant-nose fish hailing from South Africa. My research journey started with studying how these creatures learn spatial information.
 
 
 
 ## contact
-lez35[@]pitt.edu
+lzhen[@]ifh.rutgers.edu
 
