@@ -20,7 +20,7 @@ I am a research data analyst at Rutgers University. I use R and Python to turn b
 
 
 ## trivia
-- Despite what this homepage might suggest, I am not a [KEMAR](https://www.grasacoustics.com/industries/audiology/kemar)
+- Despite what this homepage might suggest, I am not a [KEMAR](https://www.grasacoustics.com/industries/audiology/kemar).
 - The github repository for this website, myomyrus, is named after [*Myomyrus rume*](https://www.google.com/search?q=mormyrus+rume&source=lnms&tbm=isch&sa=X&ved=2ahUKEwi1z76A_sP9AhW3F1kFHd71BdQQ0pQJegQIBhAC&biw=1920&bih=937), weakly electric elephant-nose fish hailing from South Africa. My research journey started with studying how these creatures learn spatial information.
 
 
