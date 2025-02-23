@@ -14,6 +14,8 @@ navbar:
       href: research.html
     - text: "teaching"
       href: teaching.html
+    - text: "resources"
+      href: resources.html
     - text: "posts"
       href: posts.html
     - icon: ai ai-orcid fa-lg
