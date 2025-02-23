@@ -1,6 +1,7 @@
 ---
 title: "resources"
 ---
+<<<<<<< HEAD
 Here are tools that I put together to facilitate data analysis and visualization. These tools are free to use and adapt. 
 
 ---
