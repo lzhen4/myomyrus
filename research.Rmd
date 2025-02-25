@@ -8,6 +8,7 @@ Here is some of my recent work.
 ---
 
 # publications
+- **Zhen, L.** (2025). Task-Irrelevant Perceptual Learning [Doctoral dissertation, University of Pittsburgh]. D-Scholarship\@Pitt Institutional Repository at the University of Pittsburgh. [[access here](https://d-scholarship.pitt.edu/47112/)]
 - Goldberg, E., Pratt, S., McNeil, M., Szuminsky, N., DeHaan, K., & **Zhen, L.**. (2025). Development, Reliability and Concurrent Validity of the American Sign Language Version of the Computerized Revised Token Test. *J Speech Lang Hear Res.*, 10.1044/2024_JSLHR-24-00207. [[access here](https://pubmed.ncbi.nlm.nih.gov/39853161/)]
 - Zink, M., **Zhen, L.**, McHaney, J., Klara, J., Yurasits, K., Cancel, V., Flemm, O., Mitchell, C., Datta, J., Chandrasekaran, B., Parthasarathy, A. (2024). Increased listening effort and cochlear neural degeneration underlie behavioral deficits in speech perception in noise in normal hearing middle-aged adults. *eLife*, 10.7554/eLife.102823.1. [[access here](https://elifesciences.org/reviewed-preprints/102823)]
 - **Zhen, L.**, & Pratt, S. (2023). Perceptual, procedural, and task learning for an auditory temporal discrimination task. *J. Acoust. Soc. Am.*, 10.1121/10.0017548. [[access here](https://asa.scitation.org/doi/10.1121/10.0017548)]
