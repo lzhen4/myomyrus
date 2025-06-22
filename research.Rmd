@@ -21,7 +21,7 @@ Here is some of my recent work.
 
 
 ## aging & mutli-talker speech intelligiblity
-*presented at ARO 2023*
+*presented at the Association for Research in Otolaryngology in 2023*
 
 Overt hearing loss is associated with reduced processing of stimulus temporal fine structure cues that are important for hearing in noise. Middle aged adults are understudied in this domain despite them forming the largest group of listeners with hearing complaints and normal audiograms. What are the perceptual consequences of reduced stimulus temporal fine structure encoding with age?
 
@@ -33,7 +33,7 @@ $$\\[1in]$$
 
 
 ## perceptual, procedural, & task learning
-*presented at ASA 2021*
+*presented at the Acoustical Society of America in 2021*
 
 What information do we learn during auditory training? Much research has focused on learning to detect changes in stimulus characteristics, but improvements also can reflect acquiring general skills and strategies and learning the perceptual judgment specific to the task. The time course for these learning processes overlap, making it difficult to isolate their individual effects.
 
@@ -44,7 +44,7 @@ knitr::include_graphics("images/asa2021.pdf")
 $$\\[1in]$$
 
 ## memory & central auditory processing
-*presented at JDVAC 2021*
+*presented at the Joint Defense Veterans Audiology Conference in 2021*
 
 Central auditory processing describes how the brain processes sound beyond the cochlea. Some assessment tools for central auditory processing can be especially challenging for veterans at elevated risk for memory deficits related to traumatic brain injuries and/or post-traumatic stress disorder.
 
@@ -55,7 +55,7 @@ knitr::include_graphics("images/memorycap_jdvac2021.pdf")
 $$\\[1in]$$
 
 ## comorbidities & hearing loss in veterans
-*presented at JDVAC 2021*
+*presented at the Joint Defense Veterans Audiology Conference in 2021*
 
 More and more veterans returning from Iraq and Afghanistan are complaining of having hearing problems, but their hearing tests are typically normal. Might their comorbidities explain their hearing problems?
 
