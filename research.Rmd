@@ -21,12 +21,12 @@ Here is some of my recent work.
 
 
 ## aging & mutli-talker speech intelligiblity
-*presented at the Association for Research in Otolaryngology in 2023*
+*presented at the Midwest Auditory Research Conference in 2025*
 
 Overt hearing loss is associated with reduced processing of stimulus temporal fine structure cues that are important for hearing in noise. Middle aged adults are understudied in this domain despite them forming the largest group of listeners with hearing complaints and normal audiograms. What are the perceptual consequences of reduced stimulus temporal fine structure encoding with age?
 
 ```{r, fig.align='left', out.width = "800px", out.height="550px", echo=FALSE}
-knitr::include_graphics("images/zhen_aro2023.pdf")
+knitr::include_graphics("images/zhen_marc2025.pdf")
 ```
 
 $$\\[1in]$$
