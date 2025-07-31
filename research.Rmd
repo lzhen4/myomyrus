@@ -43,16 +43,6 @@ knitr::include_graphics("images/asa2021.pdf")
 
 $$\\[1in]$$
 
-## memory & central auditory processing
-*presented at the Joint Defense Veterans Audiology Conference in 2021*
-
-Central auditory processing describes how the brain processes sound beyond the cochlea. Some assessment tools for central auditory processing can be especially challenging for veterans at elevated risk for memory deficits related to traumatic brain injuries and/or post-traumatic stress disorder.
-
-```{r, fig.align='left', out.width = "800px", out.height="550px", echo=FALSE}
-knitr::include_graphics("images/memorycap_jdvac2021.pdf")
-```
-
-$$\\[1in]$$
 
 ## comorbidities & hearing loss in veterans
 *presented at the Joint Defense Veterans Audiology Conference in 2021*
