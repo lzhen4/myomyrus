@@ -16,7 +16,7 @@ knitr::include_graphics("images/kemar.png")
 
 
 ## bio
-I am a research data analyst at Rutgers University. I use R and Python to turn biomedical and community health data into impactful stories.
+I am a research data analyst at Rutgers University. I use R and Mplus to turn biomedical and community health data into impactful stories.
 
 
 ## trivia
